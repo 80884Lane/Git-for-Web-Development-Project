@@ -1,0 +1,48 @@
+https://codepen.io/80884/pen/rNebZrO
+
+
+ 1. What is Semantic HTML? 
+    2. What is HTML used for? Hyper Text MarkUp Language. Building blocks
+    3. What is an attribute and where do we put it? Function, added to HTML tag
+    4. What is the h1 tag used for? How many times should I use it on a page?Header...once is good practice
+    5. Name two tags that have required attributes omg, href
+    6. What do we put in the head of our HTML document?<!Doctype html> 
+    7. What is an id? 
+    8. What elements can I add an id to? Specific id
+    9. How many times can I use the same id on a page?1 in good practice 
+    10. What is a class?Can specify more than one name 
+    11. What elements can I add a class to? .
+    12. How many times can I use the same class on a page? As many as you want
+    13. How do I get my link to open in a new tab? a href
+    14. What is the alt attribute in the image tag used for? Alternate info 
+    15. How do I reference an id?#
+    16. What is the difference between a section and a div? Section= defines spaces, div = divides HTML
+    17. What is CSS used for? Decoration
+    18. How to we select an element? Example - every h2 on the page? h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one Class can be multiple, Id is constant. Id: bobby-lane, class: human
+    20. How do we select classes in CSS? .(class id)
+    21. How do we select a p element with a single class of “human””? .human {}
+    22. What is a parent child selector? When would this be useful? Matches all elements that are lined up; easier to read.
+    23. How do you select all links within a div with the class of sidebar? .sidebar link {}
+    24. What is a pseudo selector? Selects elements that are the same
+    25. What do we use the change the spacing between lines?<br>
+    26. What do we use to change the spacing between letters? Letter-spacing: px
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? Uppercase ; lowercase
+    28. How do I add a 1px border around my div that is dotted and black? Border: 1px;
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS?<!--comment-->
+    31. How do I find out what file I am in, when I am using the command line? Pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? Cd
+    33. How do I remove a file via the command line? Why do I have to be careful with this? Rm ; delete a lot if not careful
+    34. Why should I use version control? It tracks everyone, up to date. Keeps everything cleaned up.
+    35. How often should I commit to github? When I need to save
+    36. What is the command we would use to push our repo up to github? Push
+    37. Walk me through Lambda's git flow. Fork, clone, touch, branch, push, pull, merge
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?block elements have there own line; inline an be in the line
+    2. What happens when an element is positioned absolutely?can not move 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Width; padding
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default h1, p, footer; <a>, <img>; <span>, <div>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? Box model is everything on the page has its own space. Padding: width: px
